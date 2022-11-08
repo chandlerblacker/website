@@ -36,7 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: '.'
+          path: 'C:\Users\chand\Documents\wdd130\wwr\site-plan-rafting'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
