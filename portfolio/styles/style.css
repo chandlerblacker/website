@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Quando|Lato');
+.logo {
+    width: 100px;
+    margin: 15px;
+}
+nav a{
+    text-align: center;
+    color: #01BAEF;
+    text-decoration: none;
+    padding: 50px;
+    background-color: #344966;
+    width: 80px;
+}
+nav a:hover {
+    background-color: #0CBABA;
+    color: white;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Lato', Tahoma, sans-serif;
+    font-size: 20px
+}
+img {
+    width: 350px;
+}
+header {
+    display:flex;
+}
+.home-title{
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Quando', Tahoma, sans-serif;
+}
+.hello-text{
+    font-size: 20px;
+    width: 50%;
+    margin: 30px
+}
+.hello{
+    display: flex;
+}
+.hello-img{
+    width: 50%;
+    margin: 30px
+}
+.school-text{
+    font-size: 20px;
+    width: 50%;
+    margin: 30px
+}
+.school{
+    display: flex;
+}
+.school-img{
+    width: 50%;
+    margin: 30px
+}
+footer{
+    background-color: #01BAEF;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Quando', Tahoma, sans-serif;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(1fr, 7);
+    grid-template-rows: 1fr;
+}
+.face, .twit, .inst{
+    width: 100px;
+}
+.face{
+    grid-column: 2/3;
+    padding-left: 50px;
+}
+.twit{
+    grid-column: 5/6;
+    margin-left: 100%;
+}
+.inst{
+    grid-column: 6/7;
+    padding-right:40px;
+}
